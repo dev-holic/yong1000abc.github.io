@@ -1,23 +1,25 @@
 {
-  "name": "template-react",
+  "name": "yong1000abc.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack server --mode development --open --hot",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yong1000abc/template-react.git"
+    "url": "git+https://github.com/yong1000abc/yong1000abc.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yong1000abc/template-react/issues"
+    "url": "https://github.com/yong1000abc/yong1000abc.github.io/issues"
   },
-  "homepage": "https://github.com/yong1000abc/template-react#readme",
+  "homepage": "https://yong1000abc.github.io",
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/preset-env": "^7.20.2",
@@ -28,6 +30,7 @@
     "babel-loader": "^9.1.2",
     "eslint": "^8.36.0",
     "eslint-plugin-react": "^7.32.2",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.0",
     "prettier": "2.8.4",
     "typescript": "^4.9.5",

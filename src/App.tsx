@@ -9,6 +9,9 @@ export function App() {
       <div>
         <a href="/second-githubpages-app">second-githubpages-app</a>
       </div>
+      <div>
+        <a href="/design-tool/">design-tool</a>
+      </div>
     </div>
   );
 }
